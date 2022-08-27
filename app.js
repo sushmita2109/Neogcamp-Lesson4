@@ -1,5 +1,9 @@
+var txtinput=document.querySelector('#txt-input');
 var btnclicked=document.querySelector('#btnClicked');
 
-btnclicked.addEventListener('click',function clickEventHandler(){
+function clickEventHandler(){
     console.log('clicked');
-})
+    console.log("input",txtinput.value);
+}
+
+btnclicked.addEventListener('click',clickEventHandler);

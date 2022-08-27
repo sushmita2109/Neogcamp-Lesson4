@@ -1,0 +1,10 @@
+.txt-area{
+    width: 90%;
+    display: block;
+    height: 10vh;
+    margin: 1rem;
+}
+
+.btn{
+    margin-left: 1rem;
+}
