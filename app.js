@@ -1,9 +1,9 @@
 var txtinput=document.querySelector('#txt-input');
 var btnclicked=document.querySelector('#btnClicked');
+var outputDiv=document.querySelector('#output-div');
 
 function clickEventHandler(){
-    console.log('clicked');
-    console.log("input",txtinput.value);
+    outputDiv.innerHTML="translate "+ txtinput.value;
 }
 
 btnclicked.addEventListener('click',clickEventHandler);
