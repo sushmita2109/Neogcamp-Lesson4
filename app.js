@@ -1,5 +1,5 @@
-var username=prompt('Give a name');
+var btnclicked=document.querySelector('#btnClicked');
 
-var message= 'Welcome ' + username;
-
-alert(message);
+btnclicked.addEventListener('click',function clickEventHandler(){
+    console.log('clicked');
+})
