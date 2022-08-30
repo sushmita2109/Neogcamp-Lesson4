@@ -47,7 +47,12 @@ main{
     bottom: 0;
     width: 100%;
     text-align: center;
+    height: 20vh;
     background-color: #F2C94C;
+}
+
+.footer-header{
+    margin-top: 1rem;
 }
      
   
