@@ -1,22 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&family=Lato:ital,wght@0,400;1,300&family=Source+Sans+Pro:ital,wght@0,300;1,200&display=swap');
+body{
+    margin: 0px;
+    font-family: 'IBM Plex Mono', monospace;
+font-family: 'Lato', sans-serif;
+}
+.navigation{
+ background-color:#F2C94C ;
+ padding: 16px;
+ text-align: center;
+}
+main{
+    height: 60vh;
+   text-align: center;
+}
 .txt-area{
-    width: 90%;
+    width: 50%;
     display: block;
     height: 10vh;
-    margin: 1rem;
+    margin: 1rem auto;
+    padding: 1rem;
 }
 
 .btn{
     margin-left: 1rem;
+    background-color: #F2C94C;
+    padding: 1rem;
+    margin-right: 38vw;
+  padding: 1rem 2rem;
 }
 
 .output-header{
     font-size: larger;
-    margin: 1rem;
+    margin-right: 32vw;
+  padding: 1rem 2rem;
 }
 
 .output{
     border: solid 1px black;
-    width: 90%;
-    margin: 1rem;
+    width: 50%;
+    margin: 1rem auto;
     height: 10vh;
+    padding: 1rem;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #F2C94C;
+}
+     
+  
