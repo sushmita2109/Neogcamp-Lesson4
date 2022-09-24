@@ -6,3 +6,5 @@ For this project we have used the following concepts:
 1. HTML
 1. CSS
 1. Javascript
+
+[Link to visit the application](https://banana-translator-sushmita.netlify.app/)
